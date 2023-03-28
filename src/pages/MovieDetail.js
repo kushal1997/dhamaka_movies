@@ -88,8 +88,3 @@ export const MovieDetail = () => {
     </main>
   )
 }
-
-
-{/* <span className="mr-2 fold-bold">Runtime: {data.runtime}</span>
-            <span className="mr-2 fold-bold">Budget: $ {data.budget}</span>
-            <span className="mr-2 fold-bold">Revenue: $ {data.revenue}</span> */}
