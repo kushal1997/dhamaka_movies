@@ -1,6 +1,10 @@
 
 export const MovieList = () => {
   return (
-    <main>MovieList</main>
+    <main>
+      <div className=" text-2xl font-semibold">
+        MovieList
+      </div>
+    </main>
   )
 }
