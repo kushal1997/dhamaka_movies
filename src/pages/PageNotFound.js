@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import pageNotFound from "../assets/images/pagenotfound.png";
@@ -5,6 +6,10 @@ import { Button } from "../components";
 
 
 export const PageNotFound = () => {
+
+  useEffect(()=> {
+    document.title=`Page Not Found / Dhamaka Movies`
+  })
 
   return (
     <main>
