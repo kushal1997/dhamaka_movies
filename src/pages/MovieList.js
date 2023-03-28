@@ -1,5 +1,3 @@
-
-import React from "react";
 import { Card } from "../components"
 import { useFetch } from "../hooks/useFetch";
 
